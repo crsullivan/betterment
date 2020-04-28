@@ -1,0 +1,44 @@
+.Top-div {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+    -webkit-animation: top 3s; /* Safari, Chrome and Opera > 13.1 */
+    -moz-animation: top 3s; /* Firefox < 16 */
+    -ms-animation: top 3s; /* Internet Explorer */
+    -o-animation: top 3s; /* Opera < 13.1 */
+    animation: top 3s;
+}
+
+@keyframes top {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+
+.Top-div img {
+    width: 10%;
+}
+
+.Top-div h1 {
+    margin: auto;
+    font-size: 4rem;
+}
+
+.Mid-div h1 {
+    margin: auto;
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 2%;
+    -webkit-animation: mid 6s; /* Safari, Chrome and Opera > 13.1 */
+    -moz-animation: mid 6s; /* Firefox < 16 */
+    -ms-animation: mid 6s; /* Internet Explorer */
+    -o-animation: mid 6s; /* Opera < 13.1 */
+    animation: mid 6s;
+}
+
+@keyframes mid {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
