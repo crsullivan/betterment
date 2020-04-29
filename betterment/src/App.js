@@ -7,6 +7,7 @@ import Nav from './components/nav';
 import Footer from "./components/footer";
 import Register from './components/register';
 import Login from "./components/login";
+import Skills from "./components/skills"
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route exact path="/" component={home} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
+        <Route path="/skills" component={Skills} />
+
       </Switch>
       <Footer />
     </div>
