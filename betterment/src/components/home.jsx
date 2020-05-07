@@ -11,6 +11,11 @@ function home() {
             <div className="Mid-div">
                 <h1>Betterment is a tool for creating, honing and keeping track of your skills. The idea is to better yourself, just a little bit every day. Put in the reps, harvest the rewards. End societal reliance on push-button results, they don't work.</h1>
             </div>
+            <div className="Bottom-div">
+                <img src={require("../utils/images/coding.jpg")}></img>
+                <img src={require("../utils/images/archery.jpg")}></img>
+                <img src={require("../utils/images/carpentry.jpg")}></img>
+            </div>
         </div>
     );
   }

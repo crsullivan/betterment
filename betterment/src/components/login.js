@@ -121,6 +121,7 @@ const Login = (props) => {
             variant="contained"
             color="primary"
             className={classes.submit}
+            href="http://localhost:3000/skills"
           >
             Sign In
           </Button>
