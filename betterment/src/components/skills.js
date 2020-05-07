@@ -6,7 +6,7 @@ function Skills() {
     
     return (
         <div id="Skillsbar">
-            skills here
+            skills here!
         </div>
     );
     
